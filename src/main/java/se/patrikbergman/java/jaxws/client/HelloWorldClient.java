@@ -20,7 +20,6 @@ public class HelloWorldClient{
         service.setHandlerResolver(new JaxWsHandlerResolver());
         Time hello = service.getPort(Time.class);
         System.out.println(hello.getCurrentTime());
- 
     }
  
 }

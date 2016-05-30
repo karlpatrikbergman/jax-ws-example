@@ -10,6 +10,4 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "getCurrentTime", namespace = "http://ws.jaxws.java.patrikbergman.se/")
 public class GetCurrentTime {
-
-
 }
